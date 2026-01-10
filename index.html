@@ -2,192 +2,197 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Dear Days app - Privacy Policy and Terms of Use for couples to safely store memories, notes, and photos. Your data stays private." />
-    <meta name="keywords" content="Dear Days, Privacy Policy, Terms of Use, Couples app, Memory app, Safe storage" />
-    <meta name="author" content="Dear Days" />
-    <meta name="theme-color" content="#B10667" />
-    <title>Dear Days - Privacy Policy & Terms of Use</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.png" type="image/png" />
-
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"
+    />
+    <meta name="description" content="Vasool Management - Privacy Policy" />
+    <meta name="theme-color" content="#4C8BF5" />
+    <title>Vasool Management - Privacy Policy</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="LineManagement.Api/Assets/logo.png"
+    />
     <style>
-      body {
-        font-family: "Segoe UI", Arial, sans-serif;
-        background-color: #f9fafb;
-        color: #333;
+      * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, sans-serif;
         line-height: 1.6;
+        color: #1a2340;
+        background: linear-gradient(180deg, #e9eef9 0%, #d5ddf0 100%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
       }
 
-      header {
-        background-color: #FFD5ED;
-        color: white;
-        padding: 25px 10%;
+      .container {
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 48px 40px;
+        max-width: 600px;
+        width: 100%;
         text-align: center;
       }
 
-      main {
-        max-width: 900px;
-        margin: 40px auto;
-        background: #fff;
-        padding: 40px;
+      .logo-container {
+        margin-bottom: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .logo {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
         border-radius: 12px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
       }
 
-      h1, h2 {
-        color: #B10667;
-      }
-
-      h2 {
-        margin-top: 40px;
-      }
-
-      h3 {
-        margin-top: 20px;
-      }
-
-      footer {
-        text-align: center;
-        font-size: 14px;
-        color: #777;
-        margin-top: 40px;
-        padding-bottom: 20px;
+      h1 {
+        color: #1a2340;
+        font-size: 2.25em;
+        margin-bottom: 16px;
+        font-weight: 700;
+        line-height: 1.2;
       }
 
       p {
-        margin-bottom: 12px;
+        color: #4a5878;
+        font-size: 1.05em;
+        margin-bottom: 32px;
+        line-height: 1.7;
       }
 
-      a {
-        color: #0077cc;
+      .privacy-link {
+        display: inline-block;
+        background: #4c8bf5;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 14px 32px;
+        border-radius: 12px;
+        font-size: 1.05em;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        box-shadow: 0px 2px 8px rgba(76, 139, 245, 0.25);
+        min-height: 48px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-tap-highlight-color: transparent;
       }
 
-      ul {
-        margin-left: 20px;
+      .privacy-link:hover {
+        background: #3a7be5;
+        transform: translateY(-1px);
+        box-shadow: 0px 4px 12px rgba(76, 139, 245, 0.35);
       }
 
-      @media (max-width: 600px) {
-        main {
-          padding: 25px;
+      .privacy-link:active {
+        transform: translateY(0);
+        box-shadow: 0px 2px 6px rgba(76, 139, 245, 0.25);
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 16px;
+        }
+
+        .container {
+          padding: 32px 24px;
+          border-radius: 12px;
+        }
+
+        .logo {
+          width: 64px;
+          height: 64px;
+        }
+
+        h1 {
+          font-size: 1.75em;
+          margin-bottom: 12px;
+        }
+
+        p {
+          font-size: 0.95em;
+          margin-bottom: 28px;
+        }
+
+        .privacy-link {
+          width: 100%;
+          padding: 14px 24px;
+          font-size: 1em;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .container {
+          padding: 24px 20px;
+        }
+
+        .logo {
+          width: 56px;
+          height: 56px;
+        }
+
+        h1 {
+          font-size: 1.5em;
+        }
+
+        p {
+          font-size: 0.9em;
+          line-height: 1.6;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: linear-gradient(180deg, #02030a 0%, #0b1227 100%);
+        }
+
+        .container {
+          background: #141a26;
+          box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.45);
+        }
+
+        h1 {
+          color: #f4f7fe;
+        }
+
+        p {
+          color: #a5b1cb;
         }
       }
     </style>
   </head>
-
   <body>
-    <header>
-      <h1>Dear Days</h1>
-      <p>Privacy Policy & Terms of Use</p>
-    </header>
-
-    <main>
-      <section id="privacy-policy">
-        <h2>Privacy Policy</h2>
-        <p><strong>Last updated:</strong> October 16, 2025</p>
-
-        <p>
-          We built Dear Days as a safe, personal space for couples to store and
-          relive their memories. Your privacy matters to us, and we keep things
-          simple:
-        </p>
-
-        <h3>Information we store</h3>
-        <p>
-          Only what you choose to add inside the app — notes, dates, photos, or
-          profile details. We do not collect hidden data or track you across
-          other apps.
-        </p>
-
-        <h3>How we use your data</h3>
-        <p>
-          Everything stays inside your account and is used only to run the app’s
-          features. We never sell or share your personal information.
-        </p>
-
-        <h3>Storage & security</h3>
-        <p>
-          Your data is stored securely. If you uninstall the app or clear data,
-          your memories will be deleted from your device (or our server, if
-          cloud sync is added later).
-        </p>
-
-        <h3>Children’s privacy</h3>
-        <p>
-          Dear Days is meant for adults and couples. We don’t knowingly collect
-          data from children under 13.
-        </p>
-
-        <h3>Changes</h3>
-        <p>
-          We may update this policy if new features are added. Any updates will
-          appear right here.
-        </p>
-
-        <p>
-          If you have questions, write to us at:
-          <a href="mailto:developer.janarthanan@gmail.com">developer.janarthanan@gmail.com</a>
-        </p>
-      </section>
-
-      <section id="terms-of-use">
-        <h2>Terms of Use</h2>
-
-        <p>
-          By using Dear Days, you agree to the following simple terms:
-        </p>
-
-        <h3>Personal use only</h3>
-        <p>
-          The app is designed for couples to record memories and moments, not
-          for commercial use.
-        </p>
-
-        <h3>Account responsibility</h3>
-        <p>
-          You are responsible for keeping your login details and device secure.
-        </p>
-
-        <h3>Content ownership</h3>
-        <p>
-          Anything you create or upload is yours. We do not claim ownership of
-          your content.
-        </p>
-
-        <h3>App updates</h3>
-        <p>
-          We may add or remove features to improve your experience.
-        </p>
-
-        <h3>No guarantees</h3>
-        <p>
-          We try our best to keep the app bug-free, but we can’t promise it will
-          always be perfect or uninterrupted.
-        </p>
-
-        <h3>Liability</h3>
-        <p>
-          We are not responsible for data loss or damages caused by misuse,
-          technical errors, or third-party issues.
-        </p>
-
-        <h3>Termination</h3>
-        <p>
-          You can stop using the app anytime by uninstalling it.
-        </p>
-
-        <p>
-          For any concerns, contact us at:
-          <a href="mailto:developer.janarthanan@gmail.com">developer.janarthanan@gmail.com</a>
-        </p>
-      </section>
-    </main>
-
-    <footer>
-      <p>© 2025 Dear Days. All rights reserved.</p>
-    </footer>
+    <div class="container">
+      <div class="logo-container">
+        <img
+          src="LineManagement.Api/Assets/logo.png"
+          alt="Vasool Management Logo"
+          class="logo"
+          onerror="this.style.display='none'"
+        />
+      </div>
+      <h1>Vasool Management</h1>
+      <p>
+        We respect your privacy and are committed to protecting your personal
+        information. Please review our Privacy Policy to understand how we
+        collect, use, and safeguard your data.
+      </p>
+      <a href="privacy.html" class="privacy-link">View Privacy Policy</a>
+    </div>
   </body>
 </html>
