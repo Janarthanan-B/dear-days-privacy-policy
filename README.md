@@ -1,1 +1,1 @@
-# dear-days-privacy-policy
+# vasool-management-privacy-policy
